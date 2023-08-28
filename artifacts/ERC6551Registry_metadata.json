@@ -93,55 +93,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "accountAddr",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkOwnerAccount",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkTokenInfo",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "chainId",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "tokenContract",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "tokenId",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -184,35 +135,6 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bytes",
-						"name": "data",
-						"type": "bytes"
-					}
-				],
-				"name": "executeCallAccount",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "result",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -246,7 +168,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC6551RegistryAndAccount.sol": "ERC6551Registry"
+			"ERC6551Registry.sol": "ERC6551Registry"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -268,11 +190,11 @@
 				"dweb:/ipfs/QmfH7uWphPrq8jqwGvyh4pFnLEgEPmLwyGV2Bvx1Acjggh"
 			]
 		},
-		"ERC6551RegistryAndAccount.sol": {
-			"keccak256": "0x4a34d27559826c54261ca7af7ad38fd11251d666cbd85f12aee1593dc75b0159",
+		"ERC6551Registry.sol": {
+			"keccak256": "0x2ca3b5246700abb435e1e466e079cc074dce0d349f9fbf7fc3f4c0f972da94bb",
 			"urls": [
-				"bzz-raw://6b1123be08844d7e7882ee0c90bb4defb820fee8b9ac633a840a9ec348476819",
-				"dweb:/ipfs/QmPEjYkNhdqGqKQQph5GzHrtJZaMgzS7AeYwpw9nomTwq6"
+				"bzz-raw://66309bcc7b610f8d0bf0e55ef0f5c1214cb6edaa332725e65afd5219cc466346",
+				"dweb:/ipfs/QmSfpUAoLLytkJmgVBhJg7uhAEjr1Z7bXf4ZZy8BTiG4vG"
 			]
 		},
 		"IERC6551Registry.sol": {

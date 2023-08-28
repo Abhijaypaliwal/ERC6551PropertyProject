@@ -115,7 +115,7 @@ interface IERC721 is IERC165 {
     function setApprovalForAll(address operator, bool approved) external;
 
     /**
-     * @dev Returns the account approved for `tokenId` token.custodian
+     * @dev Returns the account approved for `tokenId` token.
      *
      * Requirements:
      *

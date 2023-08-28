@@ -8,6 +8,31 @@ interface IERC6551Account {
     /// under which Ether can be received.
     receive() external payable;
 
+    /// @dev initialize function is used to initialize the tken bound account
+    /// after any ownership change
+    ///
+    /// The function can only be called by current owner of token
+    ///
+    /// The function is used to tract current and previous owner of the NFT
+    /// which is used during circular locks and to prevent previous owner to call 
+    /// the functions of the contract
+    ///
+    /// @return the status of the call in boolean format
+    function initialize() external returns (bool);
+
+    /// @dev the function is used to transfer token during the situations 
+    /// of circular lock
+    ///
+    /// The function first checks the circular lock condition i.e. when 
+    /// address(this) equals to the address returned by owner() function
+    ///
+    /// The function checks if the call is created by previous owner or not
+    /// and transfer ownership of token to the previous owner
+    ///
+    /// @return the status of the call in boolean format
+    function unlockCircularLock() external returns (bool);
+
+
     /// @dev Executes `call` on address `to`, with value `value` and calldata
     /// `data`.
     ///

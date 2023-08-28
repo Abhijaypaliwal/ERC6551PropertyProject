@@ -50,8 +50,10 @@
 		"gasEstimates": null,
 		"methodIdentifiers": {
 			"executeCall(address,uint256,bytes)": "9e5d4c49",
+			"initialize()": "8129fc1c",
 			"owner()": "8da5cb5b",
-			"token()": "fc0c546a"
+			"token()": "fc0c546a",
+			"unlockCircularLock()": "b9ee088f"
 		}
 	},
 	"abi": [
@@ -86,6 +88,19 @@
 		},
 		{
 			"inputs": [],
+			"name": "initialize",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
 			"name": "owner",
 			"outputs": [
 				{
@@ -94,7 +109,7 @@
 					"type": "address"
 				}
 			],
-			"stateMutability": "nonpayable",
+			"stateMutability": "view",
 			"type": "function"
 		},
 		{
@@ -119,6 +134,23 @@
 			],
 			"stateMutability": "view",
 			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "unlockCircularLock",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"stateMutability": "payable",
+			"type": "receive"
 		}
 	]
 }

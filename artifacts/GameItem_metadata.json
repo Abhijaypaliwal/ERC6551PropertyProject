@@ -515,11 +515,11 @@
 			]
 		},
 		"@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-			"keccak256": "0xf26647553721236b84a0687ea322ccaeb4241141408442fdc471a1c0a26118c6",
+			"keccak256": "0x5bce51e11f7d194b79ea59fe00c9e8de9fa2c5530124960f29a24d4c740a3266",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e1acb6443850848b6003fb94e9435305cbb33bb5fd55e2f201b8e9fecf5efd07",
-				"dweb:/ipfs/QmRei3tvaveDPEYG6EaLYaUTX5Be7AYUuC81MhF4xZtyEX"
+				"bzz-raw://7e66dfde185df46104c11bc89d08fa0760737aa59a2b8546a656473d810a8ea4",
+				"dweb:/ipfs/QmXvyqtXPaPss2PD7eqPoSao5Szm2n6UMoiG8TZZDjmChR"
 			]
 		},
 		"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
